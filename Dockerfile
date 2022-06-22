@@ -29,7 +29,7 @@ CMD ["ovpn_run"]
 
 # Damos permisos
 
-ADD ./bin /usr/local/bin
+#ADD ./bin /usr/local/bin
 RUN chmod a+x /usr/local/bin/*
 
 # Añadimos autenticacion con OTP si fuera necesario
