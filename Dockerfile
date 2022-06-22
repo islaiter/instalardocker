@@ -21,7 +21,7 @@ ENV EASYRSA=/usr/share/easy-rsa \
 VOLUME ["/etc/openvpn"]
 
 # Exponemos el puerto interno 1194, luego tenemos que remapearlo con docker run -p 443:1194/tcp
-EXPOSE 11944/tcp
+EXPOSE 1194/tcp
 
 # Instalamos ovpn
 
