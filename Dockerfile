@@ -34,4 +34,4 @@ RUN chmod a+x /usr/local/bin/*
 
 # Añadimos autenticacion con OTP si fuera necesario
 
-ADD ./otp/openvpn /etc/pam.d/
+#ADD ./otp/openvpn /etc/pam.d/
